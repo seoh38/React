@@ -1,0 +1,30 @@
+.box {
+    border: 1px solid black;
+    width: 500px; 
+    text-align: center;  
+}
+
+.item-img {
+    width: 400px;
+    height: 400px;
+}
+
+.main {
+    /* 세로정렬이 가로 정렬로 바뀜 : flex */
+    display: flex;
+    /* 컨텐츠가 가운데로 오게함! */
+    justify-content: center; 
+}
+
+.win { 
+    border: 10px solid; 
+    color: green;
+}
+.lose { 
+    border: 10px solid;
+    color: red;
+}
+.tie { 
+    border: 10px solid; 
+    color: black;
+}
