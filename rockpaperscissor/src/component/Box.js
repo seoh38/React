@@ -14,12 +14,12 @@ const Box = (props) => {
   };
 
   if(props.title === "Computer") {
-    console.log("computer" , result);
+    console.log("Computer" , result);
   }
 
   return (
     // className={box ${result}}이 부분이 핵심이다.
-    <div className={'box ${result}'}>
+    <div className={`box ${result}`}>
         <h1>{props.title}</h1>
         <h2 data-testid = "item-name">{props.item && props.item.name}</h2>
         {/* 
